@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl" lang="fa-IR">
 
 <head>
     <title>Invitation!</title>
+
+    <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -11,13 +13,43 @@
     <link rel="icon" type="image/png" href="/images/Fave Icon Logo.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/persianumber.js"></script>
+    <script src="js/timer.js"></script>
 </head>
 
 <body>
     <div class="main">
-        <div calss="header">
-            <h1>دعوتنامه</h1>
-            <h2>کیاندخت        داریوش</p>
+        <div class="header">
+            <div calss="title">
+                <h1>دعوتنامه</h1>
+            </div>
+            <div class="names">
+                <h2>کیاندخت و داریوش</h2>
+            </div>
+
+            <div class="description">
+                <h3>ضمن عرض سلام و احترام، شما را به جشنی که به مناسبت ازدواجمان برقرار کرده‌ایم، دعوت میکنیم.</h3>
+            </div>
+
+            <div class="date">
+                <h3>۱۶ اردیبهشت ماه ۱۴۰۱</h3>
+                <h3>ساعت ۱۹ الی ۲۳</h3>
+            </div>
+        </div>
+        <div class="timer">
+            <h4 id="headline">تا آن روز</h4>
+            <div id="countdown">
+              <ul>
+                <li><span id="days"></span>روز</li>
+                <li><span id="hours"></span>ساعت</li>
+                <li><span id="minutes"></span>دقیقه</li>
+                <li><span id="seconds"></span>ثانیه</li>
+              </ul>
+            </div>
+        </div>
+        <div class="location">
+            
         </div>
     </div>
 </body>

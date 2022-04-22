@@ -1,7 +1,86 @@
 @import url(/fonts/font.css);
 
+body{
+    background-color: #FFF7EF;
+    color: #58405a;
+    background-image: url(/images/star.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFD1A730;
+}
+
 .main {
-    width: 320px;
+    max-width: 400px;
     margin: auto;
     padding: 32px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 950;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title {
+    margin: auto;
+}
+
+.names {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.description {
+    padding-bottom: 24px;
+}
+
+.date {
+    padding-bottom: 56px;
+}
+
+.timer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 8px;
+}
+
+li span {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#headline {
+    padding-bottom: 8px;
+}
+
+#countdown {
+    /*border: 1px solid rgb(0, 0, 0);*/
+    border-radius: 16px;
+    padding-bottom: 32px;
 }
