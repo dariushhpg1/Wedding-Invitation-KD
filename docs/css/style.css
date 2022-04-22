@@ -1,9 +1,9 @@
-@import url(/fonts/font.css);
+@import url(/docs/assets/fonts/font.css);
 
 body{
     background-color: #FFF7EF;
     color: #58405a;
-    background-image: url(/assets/star.svg);
+    background-image: url(/docs/assets/images/star.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
