@@ -28,14 +28,8 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
-    font-weight: normal;
-    text-align: center;
-}
-
-h4 {
     font-size: 20px;
-    font-weight: 900;
+    font-weight: normal;
     text-align: center;
 }
 
@@ -49,10 +43,14 @@ h4 {
 }
 
 .description {
-    padding-bottom: 24px;
+    padding-bottom: 56px;
 }
 
 .date {
+    padding-bottom: 24px;
+}
+
+.location {
     padding-bottom: 56px;
 }
 
@@ -84,7 +82,7 @@ li span {
     padding-bottom: 32px;
 }
 
-.location {
+.buttons {
     margin: 0 auto;
     text-align: center;
 }
@@ -102,4 +100,13 @@ li span {
     border-radius: 80px;
     background-color: #58405a;
     font-family: paykan;
+    border: 2px solid #58405a;
+    border-radius: 80px;
+  }
+
+  .button:hover {
+    background-color: #FFF7EF;
+    color: #58405a;
+    border: 2px solid #58405a;
+    border-radius: 80px;
   }
