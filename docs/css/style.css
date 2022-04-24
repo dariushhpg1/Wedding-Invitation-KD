@@ -1,12 +1,11 @@
 @import url(/docs/css/font.css);
 
 body{
-    background-color: #FFF7EF;
+    background-color: #FFFFFF;
     color: #58405a;
-    background-image: url(https://raw.githubusercontent.com/dariushhpg1/we/main/docs/assets/images/star.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/08/e2/97/08e297f3daa33b28d867fcf1e047f19c.jpg);
+    background-repeat: repeat;
+    background-position: top;
 }
 
 .main {
@@ -35,28 +34,62 @@ h3 {
 
 .title {
     margin: auto;
+    border: 2px solid #58405a2c;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .names {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 2px dashed #58405a2c;
 }
 
 .description {
-    padding-bottom: 56px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.content {
+    border: 2px solid #58405a2c;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #FFFFFF;
+}
+
+.details {
+    border: 2px solid #58405a2c;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #FFFFFF;
 }
 
 .date {
     padding-bottom: 24px;
+    border-bottom: 2px dashed #58405a2c;
+    padding-top: 24px;
 }
 
 .location {
-    padding-bottom: 56px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .timer {
     margin: 0 auto;
     text-align: center;
+    border: 2px solid #58405a2c;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
 }
 
 li {
@@ -79,17 +112,19 @@ li span {
 #countdown {
     /*border: 1px solid rgb(0, 0, 0);*/
     border-radius: 16px;
-    padding-bottom: 32px;
 }
 
 .buttons {
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 16px;
+    border-bottom: 2px dashed #58405a2c;
+
 }
 
 .button {
     border: none;
-    color: #FFF7EF;
+    color: #FFFFFF;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -105,7 +140,7 @@ li span {
   }
 
   .button:hover {
-    background-color: #FFF7EF;
+    background-color: #FFFFFF;
     color: #58405a;
     border: 2px solid #58405a;
     border-radius: 80px;
