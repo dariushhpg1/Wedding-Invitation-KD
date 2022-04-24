@@ -1,4 +1,4 @@
-@import url(/docs/assets/fonts/font.css);
+@import url(/docs/css/font.css);
 
 body{
     background-color: #FFF7EF;
@@ -99,7 +99,7 @@ li span {
     cursor: pointer;
     border-radius: 80px;
     background-color: #58405a;
-    font-family: paykan;
+	font-family: 'Vazirmatn', sans-serif;
     border: 2px solid #58405a;
     border-radius: 80px;
   }

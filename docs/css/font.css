@@ -1,4 +1,14 @@
-﻿@font-face {
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+	font-family: 'Vazirmatn', sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap') format('woff');  
+}*/
+
+
+
+
+/*@font-face {
 	font-family: paykan;
 	font-style: normal;
 	font-weight: 100;
@@ -45,3 +55,4 @@
 	src: url('../assets/fonts/woff/paykan-ExtraBlack.woff') format('woff'),   
 	url('../assets/fonts/woff2/paykan-ExtraBlack.woff2') format('woff2');		 
 }
+*/
