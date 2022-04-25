@@ -1,17 +1,18 @@
 @import url(/docs/css/font.css);
 
 body{
-    background-color: #FFFFFF;
+    background-color: #E3E2DE;
     color: #58405a;
-    background-image: url(https://i.pinimg.com/564x/08/e2/97/08e297f3daa33b28d867fcf1e047f19c.jpg);
-    background-repeat: repeat;
+    /*background-image: url(https://i.pinimg.com/564x/2c/c1/e0/2cc1e01e493ca081f05f6620d387d7da.jpg);
+    background-repeat: no-repeat;
     background-position: top;
+    background-size: 512px;*/
 }
 
 .main {
-    max-width: 400px;
+    max-width: 720px;
     margin: auto;
-    padding: 32px;
+    padding: 16px;
 }
 
 h1 {
@@ -37,19 +38,19 @@ h3 {
     border: 2px solid #58405a2c;
     border-radius: 16px;
     background-color: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .names {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 2px dashed #58405a2c;
 }
 
 .description {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 .content {
@@ -57,7 +58,7 @@ h3 {
     border-radius: 16px;
     padding: 24px;
     margin-bottom: 16px;
-    margin-top: 250px;
+    margin-top: 16px;
     background-color: #FFFFFF;
 }
 
@@ -71,14 +72,14 @@ h3 {
 }
 
 .date {
-    padding-bottom: 24px;
+    padding-bottom: 16px;
     border-bottom: 2px dashed #58405a2c;
-    padding-top: 24px;
+    padding-top: 16px;
 }
 
 .location {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .timer {
@@ -86,7 +87,7 @@ h3 {
     text-align: center;
     border: 2px solid #58405a2c;
     border-radius: 16px;
-    padding: 24px;
+    padding: 16px;
     margin-bottom: 16px;
     background-color: #FFFFFF;
     margin-top: 16px;
@@ -119,7 +120,6 @@ li span {
     text-align: center;
     padding-bottom: 16px;
     border-bottom: 2px dashed #58405a2c;
-
 }
 
 .button {
@@ -137,11 +137,18 @@ li span {
 	font-family: 'Vazirmatn', sans-serif;
     border: 2px solid #58405a;
     border-radius: 80px;
-  }
+}
 
-  .button:hover {
+.button:hover {
     background-color: #FFFFFF;
     color: #58405a;
     border: 2px solid #58405a;
     border-radius: 80px;
-  }
+}
+
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
